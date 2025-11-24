@@ -58,6 +58,11 @@ function Tabs() {
           {tabsData[activeTabIndex].content}
         </p>
       </div>
+      <div className="p-8 bg-blue-200 rounded-b-md shadow-md min-h-[200px] flex justify-center ">
+        <h1 className="leading-relaxed text-blue-900 m-0 text-xl font-bold ">
+          React Tabs Component (Interactive Tab Switcher)
+        </h1>
+      </div>
     </div>
   );
 }
